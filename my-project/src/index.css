@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.input-no-arrows::-webkit-inner-spin-button,
+.input-no-arrows::-webkit-outer-spin-button {
+  appearance: textfield;
+  -webkit-appearance: textfield; 
+}
+.input-no-arrows {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
